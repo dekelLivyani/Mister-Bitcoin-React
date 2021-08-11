@@ -1,0 +1,14 @@
+.contact-filter{
+   display: flex;
+   flex-direction: column;
+   gap:5px;
+   & input{
+      background-color: black !important;
+      color:white;
+      border:0;
+      height: 35px;
+      &:focus{
+         outline: none;
+      }
+   }
+}

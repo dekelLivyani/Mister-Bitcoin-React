@@ -1,0 +1,17 @@
+nav{
+   padding: 0 20px;
+   height: 60px;
+   display: flex;
+   gap:10px;
+   justify-content: flex-end;
+   align-items: center;
+   border-bottom: 1px solid gray;
+   margin-bottom: 20px;
+   font-size: 1.2rem;
+   & >*.active{
+      color:rgb(253, 143, 143);
+   }
+   a{
+      cursor: pointer;
+   }
+}

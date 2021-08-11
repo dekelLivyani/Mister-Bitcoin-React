@@ -1,0 +1,22 @@
+.contact-preview{
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   gap:10px;
+   border-radius: 5px;
+   background-color: rgb(170, 164, 164);
+   color:black;
+   padding: 5px;
+   &:hover{
+      text-decoration: none;
+      background-color: rgb(150, 145, 145);
+   }
+   & .name{
+      font-size: 1.2rem;
+      text-decoration: none;      
+   }
+   & .img{
+      height: 35px;
+      border-radius: 50%;
+   }
+}

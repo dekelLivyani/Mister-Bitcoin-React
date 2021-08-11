@@ -1,0 +1,23 @@
+.contactPage{
+   border:1px solid rgb(82, 81, 81);
+   border-radius: 5px;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   padding: 2px;
+   padding-bottom: 10px;
+   position: relative;
+   .add-contact{
+      position: absolute;
+      right:5px;
+      bottom: 5px;
+      & .add-btn{
+         color: rgb(148, 145, 145);
+         font-size: 3rem;
+         background-color: black;
+         border-radius: 50%;
+         z-index: 5;
+      }
+   }
+}

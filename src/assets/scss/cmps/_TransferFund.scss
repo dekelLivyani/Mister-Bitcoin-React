@@ -1,0 +1,32 @@
+.TransferFund{
+   width: fit-content;
+   background-color: rgb(153, 151, 151);
+   border-radius: 5px;
+   padding: 10px 15px;
+   color:black;
+   text-align: center;
+   & h2{
+      margin-bottom: 15px;
+   }
+   & .action{
+      display: flex;
+      justify-content: center;
+      gap:5px;
+      & input{
+         background-color: unset;
+         border:0;
+         border-bottom: 2px solid white;
+         text-decoration: underline;
+         &:focus{
+            outline: none;
+         }
+      }
+      button{
+         background-color: black;
+         color:white;
+         padding: 5px 10px;
+         border:0;
+         border-radius: 3px;
+      }
+   }
+}

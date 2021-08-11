@@ -1,0 +1,36 @@
+.contact-details{
+
+   & .img{
+      width: 200px;
+      border-radius: 50%;
+   }
+      .actions{
+         display: flex;
+         justify-content: space-between;
+         .back{
+            & span{
+               font-size: 2rem;
+               color:white;
+            }
+         }
+         .right-buttons{
+            display: flex;
+            gap:10px;
+            .btn-action{
+               & span{
+                  font-size: 2rem;
+                  color:white;
+               }
+            }
+         }
+      }
+      .main-container{
+         display: flex;
+         justify-content: space-around;
+         .info{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+         }
+      }
+}
